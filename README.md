@@ -18,9 +18,7 @@ After selection, the user is presented with a reciept.
 
 Manager Portal: 
 
-In Development
-
-Managers can get stats on all Products and Inventory, as well as add to the store.
+Managers can get a report of all Products and Inventory, as well as add to the store.
 
   
 
@@ -35,15 +33,15 @@ Examples:
 
 Customer View: 
 
-
+![Customer Portal](/bamazonCustomer)
 
 
 Manager View:
 
+![Manager Portal](/bamazonManager)
+
 
    
-
-
 5. Deployed Link
 
 https://github.com/haleyserr/bamazon 
