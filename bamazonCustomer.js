@@ -143,8 +143,9 @@ function bamazon() {
                             } else {
 
                                 // Update SQL
+                                var new_quantity = res[0].stock_quantity - answer.quantity ; 
                                 var query = "UPDATE products SET stock_quantity = ? WHERE item_id = ?"
-                                connection.query(query, [answer.quantity, answer.item_id], function (err, res) {
+                                connection.query(query, [new_quantity, answer.item_id], function (err, res) {
                                     if (err) throw err;
                                
                                 });
